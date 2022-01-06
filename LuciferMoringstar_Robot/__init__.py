@@ -15,33 +15,24 @@ HELP = """
 
 ➥ /start : check if am alive or dead
 ➥ /about : About Me
-➥ /stats user Status
+💢 Hi, ඔයාට කොහොමද ඉතින්?
+මම තමයි CineSubz Movies Downloader
 
-<b><u>Bot Owner Only</u></b>
+🔰 මට පුලුවන් ඔයාට CineSubz වෙබ් සයිට් එකේ තියන  Movies සිංහල සබ් එක්කම ඔයාට දෙන්න.
 
-➥ /broadcast Replay Any Message or Media
-➥ /ban_user  click ban_user more info
-➥ /unban_user click unban_user more info
-➥ /banned_users Banned User Details
-➥ /total How Many Files Added In Database
-➥ /logger  Get Logs
-➥ /delete Delete File From Database
-
-<b>[➡️How To Add Old Files For database](https://youtu.be/mtu5hgW-l_o)
-
-@Mo_Tech_YT></b>
+✅ ඔයා සයිට් එකෙන් Password එක Copy කරගෙන මට එවන්න
+✅ ඊට පස්සේ ඔයාට ඕන Quality එක තෝරන්න.
+✅ ඊට පස්සේ මන් එක ඔයාට දෙනවා ලේසියෙන්ම.
 """
 
 ABOUT = """
-➥ Name : Auto Filter With IMDB
-    
-➥ Credits : Subin
-
-➥ Editing : [Muhammed RK](t.me/Mrk_YT)
+➥ Name : CineSubz Movies Downloader
+ 
+➥ Developed By : [KT BOTS](t.me/ktbots)
 
 ➥ Language : Python3
 
 ➥ Library : Pyrogram Asyncio 1.13.0
 
-➥ Source Code : [Click Me](https://github.com/PR0FESS0R-99/LuciferMoringstar_Robot)
+➥ Source Code : 🔐
 """
