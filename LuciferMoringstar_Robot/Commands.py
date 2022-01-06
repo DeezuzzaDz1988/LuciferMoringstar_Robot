@@ -119,11 +119,11 @@ async def start(bot, message):
                     [
                         InlineKeyboardButton
                             (
-                                "🍿 Channel 🍿S", url="https://t.me/cinesubz"
+                                "🍿 Channel 🍿", url="https://t.me/cinesubz"
                             ),
                         InlineKeyboardButton
                             (
-                                "🧑🦱Group 👩", url="https://t.me/cinesubzchat"
+                                "✍️ Group ✍️", url="https://t.me/cinesubzchat"
                             )
                     ],
                     [
