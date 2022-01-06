@@ -289,18 +289,18 @@ async def cb_handler(client: Client, query: CallbackQuery):
                 return
         elif query.data == "help":
             buttons = [[
-                InlineKeyboardButton('🍿 Channel 🍿", url="https://t.me/cinesubz'),
-                InlineKeyboardButton('✍️ Group ✍️", url="https://t.me/cinesubzchat")
+                InlineKeyboardButton('🍿 Channel 🍿', url="https://t.me/cinesubz"),
+                InlineKeyboardButton('✍️ Group ✍️', url="https://t.me/cinesubzchat")
                 ],[
-                InlineKeyboardButton('❤️ Web Site ❤️', url="https://cinesubz.com/')
+                InlineKeyboardButton('❤️ Web Site ❤️', url="https://cinesubz.com/")
                 ]]
             await query.message.edit(text=f"{HELP}", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
 
         elif query.data == "about":
             buttons = [
                 [
-                    InlineKeyboardButton('Update Channel', url='t.me/cinesubz'),
-                    InlineKeyboardButton('Bot Developer ', url='t.me/ktbots')
+                    InlineKeyboardButton('🎭 Update Channel 🎭', url='t.me/cinesubz'),
+                    InlineKeyboardButton('🎖Bot Developer 🎖', url='t.me/ktbots')
                 ]
                 ]
             await query.message.edit(text=f"{ABOUT}".format(TUTORIAL), reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
