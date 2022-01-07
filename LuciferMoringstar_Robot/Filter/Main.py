@@ -353,9 +353,12 @@ async def cb_handler(client: Client, query: CallbackQuery):
                 if f_caption is None:
                     f_caption = f"{title}"
                 buttons = [
-                    [
-                        InlineKeyboardButton('🍿 Channel 🍿', url='t.me/cinesubz')
-                    ]
+                   [
+                InlineKeyboardButton('🍿 Channel 🍿', url="https://t.me/cinesubz"),
+                InlineKeyboardButton('✍️ Group ✍️', url="https://t.me/cinesubzchat")
+                ],[
+                InlineKeyboardButton('❤️ Web Site ❤️', url="https://cinesubz.com/")
+                  ]
                     ]
                 
                 await query.answer()
