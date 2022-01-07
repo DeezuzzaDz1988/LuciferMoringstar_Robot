@@ -351,15 +351,13 @@ async def cb_handler(client: Client, query: CallbackQuery):
                         print(e)
                         f_caption=f_caption
                 if f_caption is None:
-                    f_caption = f"{title}"
-                buttons = [
-                   [
+                    f_caption = f"{title}"             
+                buttons = [[
                 InlineKeyboardButton('🍿 Channel 🍿', url="https://t.me/cinesubz"),
                 InlineKeyboardButton('✍️ Group ✍️', url="https://t.me/cinesubzchat")
                 ],[
                 InlineKeyboardButton('❤️ Web Site ❤️', url="https://cinesubz.com/")
-                  ]
-                    ]
+                ]]
                 
                 await query.answer()
                 await client.send_cached_media(
